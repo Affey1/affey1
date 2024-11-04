@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Toggle de Estações</title>
+    <link rel="stylesheet" href="assets/css/global/toggle/toggle.css">
+    <link rel="stylesheet" href="assets/css/global/index/index.css">
+</head>
+<body>
+    <h1>Escolha uma Estação</h1>
+    
+    <!-- Contêiner do Toggle -->
+    <div class="color-toggle" id="colorToggle">
+        <!-- Slider de Imagem -->
+        <div class="slider" id="slider">
+            <img id="sliderImage" src="images/inverno.png" alt="Imagem do Toggle" />
+        </div>
+        
+        <!-- Marcadores para as estações -->
+        <div class="marker" style="left: 45px;" onclick="moveSliderToClosestMarker(45)"></div>
+        <div class="marker" style="left: 140px;" onclick="moveSliderToClosestMarker(140)"></div>
+        <div class="marker" style="left: 235px;" onclick="moveSliderToClosestMarker(235)"></div>
+        <div class="marker" style="left: 330px;" onclick="moveSliderToClosestMarker(330)"></div>
+    </div>
+    
+    <!-- Botão de Redirecionamento -->
+    <button id="redirectButton" class="btn-redirect">Ir para o Poema</button>
+
+    <!-- Certifique-se de que o caminho do script esteja correto após renomear o arquivo -->
+    <script src="assets/js/global/index.js"></script>
+</body>
+</html>

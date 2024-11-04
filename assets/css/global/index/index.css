@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Poppins;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black; /* Corrigido para ter a borda definida corretamente */
+    border-radius: 5px;
+    background-color: transparent; /* Para deixar o fundo transparente */
+    color: transparent; /* Se quiser o texto invisível, mantenha */
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo ao passar o mouse */
+  }
+  
+  .btn-redirect {
+    position: relative;
+    transform: translateX(-50%);
+    left: 80px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black; /* Definido corretamente */
+    border-radius: 10px;
+    background-color: transparent; /* Fundo transparente */
+    color: rgb(10, 10, 10); /* Cor do texto */
+    font-family: 'Tormenta';
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .btn-redirect:hover {
+    background-color: rgba(0, 86, 179, 0.5); /* Leve mudança de fundo ao passar o mouse */
+  }
